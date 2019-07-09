@@ -1,0 +1,97 @@
+body{
+    background-image: linear-gradient( to bottom right,rgb(203, 232, 241),#219faa);
+    height: 120vh;
+    font-family: cursive
+}
+
+form{
+    background-color: lightyellow;
+    height: 95vh;
+    width: 38vw;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 5vh;
+    margin-bottom: 50px;
+    position: relative;
+    padding-top: 3.7vw;
+    box-shadow: 5px 5px 10px grey;
+
+    
+}
+
+.fieldset-menu{
+    width: 30vw;
+    margin-left: 2.8vw;
+    height: max-content;
+    border-radius: 12px;
+}
+
+legend{
+    font-size: 2.5vw;
+    font-family: cursive;
+    margin-bottom: 10px
+}
+
+label{
+    margin-left: 10%;  
+}
+
+input{
+    margin-left: 10%;
+}
+
+select{
+    margin-left: 10%;
+    background: white;
+    width: 150px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    height: 45px;
+    width: 80%;
+}
+
+input{
+    width: 25%; 
+    padding: 12px;  
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    width: 80%;
+    font-size: 15px;
+    outline: none
+  }
+
+button{
+    margin-left: 10%;
+    background-color: rgb(90, 199, 93); 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 2px;
+    width: 80%;
+    height: 7vh;
+}
+
+.sub-menu:hover{
+    animation: shake 0.5s
+}
+
+@keyframes shake{
+    0%{ transform: translateX(-2px);}
+    10%{ transform: translateX(2px);}
+    20%{ transform: translateX(-2px);}
+    30%{ transform: translateX(2px);}
+    40%{ transform: translateX(-2px);}
+    50%{ transform: translateX(2px);}
+    60%{ transform: translateX(-2px);}
+    70%{ transform: translateX(2px);}
+    80%{ transform: translateX(-2px);}
+    90%{ transform: translateX(2px);}
+    100%{ transform: translateX(-2px);}
+}
+
